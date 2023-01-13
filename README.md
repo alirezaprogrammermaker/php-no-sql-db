@@ -2,19 +2,25 @@
 very simple and easy file database without need setting just include file
 
 
-## start
+## Start with me 😁
 
-
+### include
 ```
-<?php
 
 require 'NoSqlDb.php';
 
+```
 
-// make table
+### make table
+
+```
+
 nsd_make_table('users');
 
-// insert data
+```
+### insert data
+
+```
 
 $id = nsd_insert_data(
     'users',
@@ -26,13 +32,11 @@ $id = nsd_insert_data(
     ]
 );
 
-// select data
-nsd_select_data(
-    'users',
-    [
-        'id' => 1,
-    ]
-);
+```
+
+### select data
+
+```
 
 nsd_select_data(
     'users',
@@ -56,7 +60,12 @@ nsd_select_data(
         ]
     ]
 );
-// update data
+
+```
+
+### update data
+
+```
 
 nsd_update_data(
     'users',
@@ -71,7 +80,11 @@ nsd_update_data(
     ]
 );
 
-// delete data
+```
+
+### delete data
+
+```
 
 nsd_delete_data(
     'users',
@@ -79,8 +92,5 @@ nsd_delete_data(
         'id' => 1,
     ]
 );
-
-
-
 
 ```
