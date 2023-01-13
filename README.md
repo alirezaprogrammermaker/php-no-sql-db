@@ -67,7 +67,8 @@ nsd_select_data(
 ```
 
 ### Update Data
-
+#### automatic update column
+##### - changed_at
 ```
 
 nsd_update_data(
