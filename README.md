@@ -101,7 +101,7 @@ nsd_delete_data(
 ```
 define('tables_dir' , 'tables/');
 ```
-##### Change date time format for columns **created_at** and **changed_at**
+##### Change date time format for columns __ created_at __ and __ changed_at __
 ```
 define('date_format' , 'Y-m-d H:i:s');
 ```
