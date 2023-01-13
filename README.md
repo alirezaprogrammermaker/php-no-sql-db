@@ -19,7 +19,10 @@ nsd_make_table('users');
 
 ```
 ### Insert Data
-
+#### automatic generate columns
+##### - id
+##### - changed_at
+##### - created_at
 ```
 
 $id = nsd_insert_data(
