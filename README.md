@@ -11,14 +11,14 @@ require 'NoSqlDb.php';
 
 ```
 
-### make table
+### Make Table
 
 ```
 
 nsd_make_table('users');
 
 ```
-### insert data
+### Insert Data
 
 ```
 
@@ -34,7 +34,7 @@ $id = nsd_insert_data(
 
 ```
 
-### select data
+### Select Data
 
 ```
 
@@ -63,7 +63,7 @@ nsd_select_data(
 
 ```
 
-### update data
+### Update Data
 
 ```
 
@@ -82,7 +82,7 @@ nsd_update_data(
 
 ```
 
-### delete data
+### Delete Data
 
 ```
 
@@ -93,4 +93,15 @@ nsd_delete_data(
     ]
 );
 
+```
+
+### setting
+
+##### Change table address
+```
+define('tables_dir' , 'tables/');
+```
+##### change date time format for columns created_at and changed_at
+```
+define('date_format' , 'Y-m-d H:i:s');
 ```
