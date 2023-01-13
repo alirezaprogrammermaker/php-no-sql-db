@@ -95,7 +95,7 @@ nsd_delete_data(
 
 ```
 
-### setting
+### Setting
 
 ##### Change table address
 ```
